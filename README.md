@@ -1,7 +1,7 @@
-# Tesla Trading strategy 
+# Application
 
-Hits the YahooFinance API to extract stock data using the Dual Moving average crossover strategy to make predictions of Tesla stock. 
+Hits the Yahoo API to extract stock data and uses moving average comparator
 
-## Contributors
+## Contibutors
 
 Aditya Tatwawadi, London
