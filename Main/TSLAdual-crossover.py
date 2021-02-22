@@ -17,7 +17,7 @@ import datetime
 plt.style.use('fivethirtyeight')
 
 #datetime.datetime is a data type within the datetime module YYYY-MM-DD
-start = datetime.datetime(2018, 1, 1)
+start = datetime.datetime(2019, 1, 1)
 end = datetime.datetime(2021, 1, 1)
  
 #DataReader method name is case sensitive. 
@@ -29,10 +29,10 @@ df = web.DataReader("TSLA", 'yahoo', start, end)
  
 #..\first_yahoo_prices_to_csv_demo.csv must not
 #be open in another app, such as Excel
-df.to_csv('TSLA_2018-2021.csv')
+df.to_csv('TSLA_2019-2021.csv')
 
 #Visualize the data - User should use their own desired pathname
-TSLA = pd.read_csv('/Users/adityatatwawadi/Desktop/VisualStudio/AlgoTrading/Main/TSLA_2018-2021.csv')
+TSLA = pd.read_csv('/Users/adityatatwawadi/Desktop/VisualStudio/AlgoTrading/Main/TSLA_2019-2021.csv')
 
 #Create simple moving average
 def moving_average():
@@ -108,7 +108,7 @@ def visualize_data():
     plt.title('Tesla Adj. Close History Buy & Sell Signals')
 
     #Dates of Plot need to be added
-    plt.xlabel('Jan 01, 2018 - Jan 01, 2021')
+    plt.xlabel('Jan 01, 2019 - Jan 01, 2021')
     plt.ylabel('Adj. Close Price USD ($)')
     plt.legend(loc = 'upper left')
     plt.show()
