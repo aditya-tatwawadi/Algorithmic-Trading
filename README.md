@@ -1,3 +1,0 @@
-# Algorithmic-Trading
-
-Algo trading
