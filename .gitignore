@@ -1,6 +1,8 @@
+#Ignore the Extra Example Folder
+ExtraExamples
+
+#Not neccessary but hides all files in extra example folder
 AAPL_test.csv
 AAPLdual-crossover.py
 IBM_2015-2020.csv
 IBM.py
-.DS_Store
-ExtraExamples
