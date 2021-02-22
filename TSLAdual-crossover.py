@@ -20,7 +20,8 @@ plt.style.use('fivethirtyeight')
 start = datetime.datetime(2018, 1, 1)
 end = datetime.datetime(2021, 1, 1)
  
-#DataReader method name is case sensitive
+#DataReader method name is case sensitive. 
+#N.b. Ticker symbol can be changed. Includes Yahoo API
 df = web.DataReader("TSLA", 'yahoo', start, end)
  
 #invoke to_csv for df dataframe object from 
