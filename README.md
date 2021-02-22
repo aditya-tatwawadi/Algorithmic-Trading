@@ -2,7 +2,7 @@
 
 Hits the YahooFinance API to extract stock data using the Dual Moving average crossover strategy to make predictions of Tesla stock. 
 
-<img src = "/Users/adityatatwawadi/Desktop/cybertruck.png)" width = '100'>
+![](/Users/adityatatwawadi/Desktop/cybertruck.png)
 
 ## Contributors
 
