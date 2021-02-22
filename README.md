@@ -2,6 +2,6 @@
 
 Hits the YahooAPI to extract stock data and make predictions based on Moving Averages
 
-## Contributors
+## Contributors
 
 Aditya Tatwawadi, London
