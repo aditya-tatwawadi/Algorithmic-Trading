@@ -1,6 +1,6 @@
 # Algorithmic-Trading
 
-Hits the YahooAPI to extract stock data and make predictions based on Moving Averages
+Uses the YahooAPI to extract stock data and make predictions based on Moving Averages
 
 ## Contributor
 
